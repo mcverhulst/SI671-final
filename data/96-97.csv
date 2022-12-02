@@ -1,4 +1,4 @@
-Rk,Player,Age,Tm,Pos,GP,G,A,PTS,+/-,PIM,PS,EV,PP,SH,GW,EV,PP,SH,S,S%,TOI,ATOI,Id
+ï»¿Rk,Player,Age,Tm,Pos,GP,G,A,PTS,+/-,PIM,PS,EV,PP,SH,GW,EV,PP,SH,S,S%,TOI,ATOI,Id
 1,Greg Adams,33,DAL,LW,50,21,15,36,27,2,4.8,16,5,0,4,9,6,0,113,18.6,,,adamsgr02
 2,Tommy Albelin,32,CGY,D,72,4,11,15,-8,14,4,2,2,0,0,4,7,0,103,3.9,,,albelto01
 3,Daniel Alfredsson*,24,OTT,RW,76,24,47,71,5,30,7.4,12,11,1,1,25,20,2,247,9.7,,,alfreda01
@@ -160,9 +160,9 @@ Rk,Player,Age,Tm,Pos,GP,G,A,PTS,+/-,PIM,PS,EV,PP,SH,GW,EV,PP,SH,S,S%,TOI,ATOI,Id
 127,Mariusz Czerkawski,24,EDM,LW,76,26,21,47,0,16,5,22,4,0,3,16,5,0,182,14.3,,,czerkma01
 128,Andreas Dackell,24,OTT,RW,79,12,19,31,-6,8,2,10,2,0,3,18,1,0,79,15.2,,,dackean01
 129,Kevin Dahl,28,PHX,D,2,0,0,0,0,0,0.1,0,0,0,0,0,0,0,2,0,,,dahlke01
-130,Ulf Dahlén,30,TOT,LW,73,14,19,33,-2,18,2.6,10,4,0,4,15,4,0,131,10.7,,,dahleul01
-130,Ulf Dahlén,30,SJS,LW,43,8,11,19,-11,8,1.2,5,3,0,1,8,3,0,78,10.3,,,dahleul01
-130,Ulf Dahlén,30,CHI,LW,30,6,8,14,9,10,1.4,5,1,0,3,7,1,0,53,11.3,,,dahleul01
+130,Ulf DahlÃ©n,30,TOT,LW,73,14,19,33,-2,18,2.6,10,4,0,4,15,4,0,131,10.7,,,dahleul01
+130,Ulf DahlÃ©n,30,SJS,LW,43,8,11,19,-11,8,1.2,5,3,0,1,8,3,0,78,10.3,,,dahleul01
+130,Ulf DahlÃ©n,30,CHI,LW,30,6,8,14,9,10,1.4,5,1,0,3,7,1,0,53,11.3,,,dahleul01
 131,Alexandre Daigle,21,OTT,RW,82,26,25,51,-33,33,4.2,22,4,0,5,11,14,0,203,12.8,,,daiglal02
 132,J.J. Daigneault,31,TOT,D,66,5,23,28,0,58,4.1,5,0,0,1,12,11,0,62,8.1,,,daignjj01
 132,J.J. Daigneault,31,PIT,D,53,3,14,17,-5,36,2.2,3,0,0,1,9,5,0,49,6.1,,,daignjj01
@@ -262,7 +262,7 @@ Rk,Player,Age,Tm,Pos,GP,G,A,PTS,+/-,PIM,PS,EV,PP,SH,GW,EV,PP,SH,S,S%,TOI,ATOI,Id
 209,Dave Gagner,32,CGY,C,82,27,33,60,2,48,6.5,18,9,0,4,18,12,3,228,11.8,,,gagneda01
 210,Garry Galley,33,BUF,D,71,4,34,38,10,102,6.4,2,1,1,1,21,13,0,84,4.8,,,gallega01
 211,Bruce Gardiner,24,OTT,RW,67,11,10,21,4,49,1.6,10,0,1,2,9,1,0,94,11.7,,,gardibr01
-212,Johan Garpenlöv,28,FLA,LW,53,11,25,36,10,47,3.4,10,1,0,1,18,7,0,83,13.3,,,garpejo01
+212,Johan GarpenlÃ¶v,28,FLA,LW,53,11,25,36,10,47,3.4,10,1,0,1,18,7,0,83,13.3,,,garpejo01
 213,Mike Gartner*,37,PHX,RW,82,32,31,63,-11,38,6.5,18,13,1,7,19,12,0,271,11.8,,,gartnmi01
 214,Aaron Gavey,22,TOT,C,57,8,11,19,-12,46,0.8,5,3,0,1,10,1,0,62,12.9,,,gaveyaa01
 214,Aaron Gavey,22,CGY,C,41,7,9,16,-11,34,0.9,4,3,0,1,8,1,0,54,13,,,gaveyaa01
@@ -317,11 +317,11 @@ Rk,Player,Age,Tm,Pos,GP,G,A,PTS,+/-,PIM,PS,EV,PP,SH,GW,EV,PP,SH,S,S%,TOI,ATOI,Id
 254,Alex Hicks,27,MDA,C,18,2,6,8,1,14,0.5,2,0,0,0,6,0,0,21,9.5,,,hicksal01
 255,Sean Hill,26,OTT,D,5,0,0,0,1,4,0.3,0,0,0,0,0,0,0,9,0,,,hillse01
 256,Todd Hlushko,26,CGY,LW,58,7,11,18,-2,49,1,7,0,0,0,10,0,1,76,9.2,,,hlushto01
-257,Jonas Höglund,24,CGY,LW,68,19,16,35,-4,12,3.5,16,3,0,6,5,11,0,189,10.1,,,hoglujo01
+257,Jonas HÃ¶glund,24,CGY,LW,68,19,16,35,-4,12,3.5,16,3,0,6,5,11,0,189,10.1,,,hoglujo01
 258,Benoit Hogue,30,DAL,LW,73,19,24,43,8,54,4,14,5,0,5,18,6,0,131,14.5,,,hoguebe01
-259,Bobby Holík,26,NJD,C,82,23,39,62,24,54,6.7,18,5,0,6,31,8,0,192,12,,,holikbo01
+259,Bobby HolÃ­k,26,NJD,C,82,23,39,62,24,54,6.7,18,5,0,6,31,8,0,192,12,,,holikbo01
 260,Jason Holland,20,NYI,D,4,1,0,1,1,0,0.4,1,0,0,0,0,0,0,3,33.3,,,hollaja01
-261,Tomas Holmström,24,DET,LW,47,6,3,9,-10,33,-0.1,3,3,0,0,1,2,0,53,11.3,,,holmsto01
+261,Tomas HolmstrÃ¶m,24,DET,LW,47,6,3,9,-10,33,-0.1,3,3,0,0,1,2,0,53,11.3,,,holmsto01
 262,Brian Holzinger,24,BUF,C,81,22,29,51,9,54,4.8,18,2,2,6,23,5,1,142,15.5,,,holzibr01
 263,Doug Houda,30,NYI,D,70,2,8,10,1,99,3,2,0,0,0,6,2,0,29,6.9,,,houdado01
 264,Eric Houde,20,MTL,C,13,0,2,2,1,2,-0.1,0,0,0,0,2,0,0,1,0,,,houdeer01
@@ -346,7 +346,7 @@ Rk,Player,Age,Tm,Pos,GP,G,A,PTS,+/-,PIM,PS,EV,PP,SH,GW,EV,PP,SH,S,S%,TOI,ATOI,Id
 281,Ralph Intranuovo,23,TOT,C,8,1,1,2,-1,0,0,1,0,0,0,1,0,0,6,16.7,,,intrara01
 281,Ralph Intranuovo,23,EDM,C,5,1,0,1,0,0,0.1,1,0,0,0,0,0,0,2,50,,,intrara01
 281,Ralph Intranuovo,23,TOR,C,3,0,1,1,-1,0,0,0,0,0,0,1,0,0,4,0,,,intrara01
-282,Jaromír Jágr,24,PIT,RW,63,47,48,95,22,40,12,34,11,2,6,33,14,1,234,20.1,,,jagrja01
+282,JaromÃ­r JÃ¡gr,24,PIT,RW,63,47,48,95,22,40,12,34,11,2,6,33,14,1,234,20.1,,,jagrja01
 283,Craig Janney,29,PHX,C,77,15,38,53,-1,26,4.5,10,5,0,1,30,8,0,88,17,,,jannecr01
 284,Mark Janssens,28,TOT,C,66,2,6,8,-13,137,-1.1,2,0,0,0,5,1,0,39,5.1,,,janssma01
 284,Mark Janssens,28,HAR,C,54,2,4,6,-10,90,-0.8,2,0,0,0,3,1,0,30,6.7,,,janssma01
@@ -367,7 +367,7 @@ Rk,Player,Age,Tm,Pos,GP,G,A,PTS,+/-,PIM,PS,EV,PP,SH,GW,EV,PP,SH,S,S%,TOI,ATOI,Id
 294,Keith Jones,28,TOT,RW,78,25,23,48,3,118,5,10,14,1,7,17,6,0,170,14.7,,,joneske01
 294,Keith Jones,28,COL,RW,67,23,20,43,5,105,4.6,9,13,1,7,14,6,0,158,14.6,,,joneske01
 294,Keith Jones,28,WSH,RW,11,2,3,5,-2,13,0.4,1,1,0,0,3,0,0,12,16.7,,,joneske01
-295,Kenny Jönsson,22,NYI,D,81,3,18,21,10,24,5.1,2,1,0,0,14,4,0,92,3.3,,,jonsske01
+295,Kenny JÃ¶nsson,22,NYI,D,81,3,18,21,10,24,5.1,2,1,0,0,14,4,0,92,3.3,,,jonsske01
 296,Chris Joseph,27,VAN,D,63,3,13,16,-21,62,1.4,1,2,0,1,5,8,0,99,3,,,josepch01
 297,Ed Jovanovski,20,FLA,D,61,7,16,23,-1,172,5,4,3,0,1,11,5,0,80,8.8,,,jovaned01
 298,Joe Juneau,29,WSH,LW,58,15,27,42,-11,8,3.7,5,9,1,3,18,9,0,124,12.1,,,juneajo01
@@ -465,7 +465,7 @@ Rk,Player,Age,Tm,Pos,GP,G,A,PTS,+/-,PIM,PS,EV,PP,SH,GW,EV,PP,SH,S,S%,TOI,ATOI,Id
 377,Curtis Leschyshyn,27,COL,D,11,0,5,5,1,6,0.9,0,0,0,0,5,0,0,8,0,,,leschcu01
 377,Curtis Leschyshyn,27,WSH,D,2,0,0,0,0,2,0.1,0,0,0,0,0,0,0,0,,,,leschcu01
 378,Doug Lidster,36,NYR,D,48,3,4,7,10,24,2.7,3,0,0,0,3,0,1,42,7.1,,,lidstdo01
-379,Nicklas Lidström*,26,DET,D,79,15,42,57,11,30,10.4,7,8,0,1,19,22,1,214,7,,,lidstni01
+379,Nicklas LidstrÃ¶m*,26,DET,D,79,15,42,57,11,30,10.4,7,8,0,1,19,22,1,214,7,,,lidstni01
 380,Trevor Linden,26,VAN,C,49,9,31,40,5,27,3.3,5,2,2,2,24,6,1,84,10.7,,,lindetr01
 381,Mats Lindgren,22,EDM,C,69,11,14,25,-7,12,1.4,6,2,3,1,13,1,0,71,15.5,,,lindgma01
 382,Eric Lindros*,23,PHI,C,52,32,47,79,31,136,10,23,9,0,7,33,14,0,198,16.2,,,lindrer01
@@ -485,7 +485,7 @@ Rk,Player,Age,Tm,Pos,GP,G,A,PTS,+/-,PIM,PS,EV,PP,SH,GW,EV,PP,SH,S,S%,TOI,ATOI,Id
 396,Sergei Makarov*,38,DAL,RW,4,0,0,0,-2,0,-0.2,0,0,0,0,0,0,0,0,,,,makarse01
 397,Vladimir Malakhov,28,MTL,D,65,10,20,30,3,43,5,5,5,0,1,10,9,1,177,5.6,,,malakvl01
 398,Stewart Malgunas,26,WSH,D,6,0,0,0,2,2,0.4,0,0,0,0,0,0,0,3,0,,,malgust01
-399,Marek Malík,21,HAR,D,47,1,5,6,5,50,2.6,1,0,0,1,5,0,0,33,3,,,malikma01
+399,Marek MalÃ­k,21,HAR,D,47,1,5,6,5,50,2.6,1,0,0,1,5,0,0,33,3,,,malikma01
 400,Dean Malkoc,27,BOS,D,33,0,0,0,-14,70,-0.2,0,0,0,0,0,0,0,7,0,,,malkode01
 401,Troy Mallette,26,BOS,LW,68,6,8,14,-8,155,-0.1,6,0,0,2,8,0,0,61,9.8,,,malletr01
 402,Kirk Maltby,24,DET,LW,66,3,5,8,3,75,-0.5,3,0,0,0,4,0,1,62,4.8,,,maltbki01
@@ -543,7 +543,7 @@ Rk,Player,Age,Tm,Pos,GP,G,A,PTS,+/-,PIM,PS,EV,PP,SH,GW,EV,PP,SH,S,S%,TOI,ATOI,Id
 448,Dmitri Mironov,31,PIT,D,15,1,5,6,-4,24,0.6,1,0,0,1,3,2,0,19,5.3,,,mirondm01
 449,Mike Modano*,26,DAL,C,80,35,48,83,43,42,10.2,21,9,5,9,38,8,2,291,12,,,modanmi01
 450,Fredrik Modin,22,TOR,RW,76,6,7,13,-14,24,-0.6,6,0,0,0,7,0,0,85,7.1,,,modinfr01
-451,Jaroslav Modrý,25,LAK,D,30,3,3,6,-13,25,0.9,1,1,1,0,3,0,0,32,9.4,,,modryja01
+451,Jaroslav ModrÃ½,25,LAK,D,30,3,3,6,-13,25,0.9,1,1,1,0,3,0,0,32,9.4,,,modryja01
 452,Sandy Moger,27,BOS,RW,34,10,3,13,-12,45,0.9,7,3,0,0,3,0,0,54,18.5,,,mogersa01
 453,Alexander Mogilny,27,VAN,LW,76,31,42,73,9,18,7.8,23,7,1,4,32,9,1,174,17.8,,,mogilal01
 454,Sergio Momesso,31,TOT,LW,40,1,3,4,-6,48,-0.8,1,0,0,0,3,0,0,43,2.3,,,momesse01
@@ -581,7 +581,7 @@ Rk,Player,Age,Tm,Pos,GP,G,A,PTS,+/-,PIM,PS,EV,PP,SH,GW,EV,PP,SH,S,S%,TOI,ATOI,Id
 472,Brantt Myhres,22,TBL,RW,47,3,1,4,1,136,-0.4,3,0,0,1,1,0,0,13,23.1,,,myhrebr01
 473,Anders Myrvold,21,BOS,D,9,0,2,2,-1,4,0.3,0,0,0,0,1,1,0,8,0,,,myrvoan01
 474,Evgeny Namestnikov,25,VAN,D,2,0,0,0,-1,4,0,0,0,0,0,0,0,0,1,0,,,namesjo01
-475,Markus Näslund,23,VAN,LW,78,21,20,41,-15,30,3,17,4,0,4,15,5,0,120,17.5,,,nasluma02
+475,Markus NÃ¤slund,23,VAN,LW,78,21,20,41,-15,30,3,17,4,0,4,15,5,0,120,17.5,,,nasluma02
 476,Andrei Nazarov,22,SJS,LW,60,12,15,27,-4,222,2.2,11,1,0,1,13,2,0,116,10.3,,,nazaran01
 477,Rumun Ndur,21,BUF,D,2,0,0,0,1,2,0.1,0,0,0,0,0,0,0,0,,,,ndurru01
 478,Stan Neckar,21,OTT,D,5,0,0,0,2,2,0.3,0,0,0,0,0,0,0,3,0,,,neckast01
@@ -606,7 +606,7 @@ Rk,Player,Age,Tm,Pos,GP,G,A,PTS,+/-,PIM,PS,EV,PP,SH,GW,EV,PP,SH,S,S%,TOI,ATOI,Id
 492,Brian Noonan,31,NYR,RW,44,6,9,15,-7,28,0.5,3,3,0,1,6,3,0,62,9.7,,,noonabr01
 492,Brian Noonan,31,VAN,RW,16,4,8,12,2,6,1.1,3,0,1,0,5,2,1,25,16,,,noonabr01
 492,Brian Noonan,31,STL,RW,13,2,5,7,2,0,0.6,2,0,0,0,5,0,0,13,15.4,,,noonabr01
-493,Mattias Norström,25,LAK,D,80,1,21,22,-4,84,4.5,1,0,0,0,15,5,1,106,0.9,,,norstma01
+493,Mattias NorstrÃ¶m,25,LAK,D,80,1,21,22,-4,84,4.5,1,0,0,0,15,5,1,106,0.9,,,norstma01
 494,Jeff Norton,31,TOT,D,75,2,16,18,-7,58,3.5,2,0,0,0,9,6,1,81,2.5,,,nortoje01
 494,Jeff Norton,31,EDM,D,62,2,11,13,-7,42,2.6,2,0,0,0,7,4,0,68,2.9,,,nortoje01
 494,Jeff Norton,31,TBL,D,13,0,5,5,0,16,0.9,0,0,0,0,2,2,1,13,0,,,nortoje01
@@ -639,7 +639,7 @@ Rk,Player,Age,Tm,Pos,GP,G,A,PTS,+/-,PIM,PS,EV,PP,SH,GW,EV,PP,SH,S,S%,TOI,ATOI,Id
 509,Christer Olsson,26,STL,D,5,0,1,1,1,0,0.3,0,0,0,0,1,0,0,2,0,,,olssoch01
 510,Joel Otto,35,PHI,C,78,13,19,32,12,99,2.4,12,0,1,2,17,0,2,105,12.4,,,ottojo01
 511,Sandis Ozolinsh,24,COL,D,80,23,45,68,4,88,11.1,10,13,0,4,15,29,1,232,9.9,,,ozolisa01
-512,Ziggy Pálffy,24,NYI,RW,80,48,42,90,21,43,12,38,6,4,6,25,15,2,292,16.4,,,palffzi01
+512,Ziggy PÃ¡lffy,24,NYI,RW,80,48,42,90,21,43,12,38,6,4,6,25,15,2,292,16.4,,,palffzi01
 513,Jay Pandolfo,22,NJD,LW,46,6,8,14,-1,6,0.7,6,0,0,1,8,0,0,61,9.8,,,pandoja01
 514,Richard Park,20,TOT,C,12,1,1,2,-1,10,-0.1,1,0,0,0,1,0,0,10,10,,,parkri01
 514,Richard Park,20,MDA,C,11,1,1,2,0,10,0,1,0,0,0,1,0,0,9,11.1,,,parkri01
@@ -743,9 +743,9 @@ Rk,Player,Age,Tm,Pos,GP,G,A,PTS,+/-,PIM,PS,EV,PP,SH,GW,EV,PP,SH,S,S%,TOI,ATOI,Id
 601,Kjell Samuelsson,38,PHI,D,34,4,3,7,17,47,3.1,4,0,0,0,3,0,0,36,11.1,,,samuekj01
 602,Ulf Samuelsson,32,NYR,D,73,6,11,17,3,138,4,5,1,0,1,10,0,1,77,7.8,,,samueul01
 603,Geoff Sanderson,24,HAR,LW,82,36,31,67,-9,29,7.7,23,12,1,4,20,11,0,297,12.1,,,sandege01
-604,Tomas Sandström,32,TOT,RW,74,18,24,42,6,69,3.7,15,1,2,2,17,7,0,139,12.9,,,sandsto01
-604,Tomas Sandström,32,PIT,RW,40,9,15,24,4,33,2,7,1,1,0,11,4,0,73,12.3,,,sandsto01
-604,Tomas Sandström,32,DET,RW,34,9,9,18,2,36,1.7,8,0,1,2,6,3,0,66,13.6,,,sandsto01
+604,Tomas SandstrÃ¶m,32,TOT,RW,74,18,24,42,6,69,3.7,15,1,2,2,17,7,0,139,12.9,,,sandsto01
+604,Tomas SandstrÃ¶m,32,PIT,RW,40,9,15,24,4,33,2,7,1,1,0,11,4,0,73,12.3,,,sandsto01
+604,Tomas SandstrÃ¶m,32,DET,RW,34,9,9,18,2,36,1.7,8,0,1,2,6,3,0,66,13.6,,,sandsto01
 605,Yves Sarault,24,COL,LW,28,2,1,3,0,6,-0.3,2,0,0,0,1,0,0,41,4.9,,,sarauyv01
 606,Miroslav Satan,22,TOT,LW,76,25,13,38,-3,26,3.9,18,7,0,3,9,4,0,119,21,,,satanmi01
 606,Miroslav Satan,22,EDM,LW,64,17,11,28,-4,22,2.5,12,5,0,2,7,4,0,90,18.9,,,satanmi01
@@ -755,7 +755,7 @@ Rk,Player,Age,Tm,Pos,GP,G,A,PTS,+/-,PIM,PS,EV,PP,SH,GW,EV,PP,SH,S,S%,TOI,ATOI,Id
 609,Kevin Sawyer,22,BOS,LW,2,0,0,0,0,0,-0.1,0,0,0,0,0,0,0,0,,,,sawyeke01
 610,Mathieu Schneider,27,TOR,D,26,5,7,12,3,20,2.5,4,1,0,1,3,4,0,63,7.9,,,schnema01
 611,Paxton Schulte,24,CGY,LW,1,0,0,0,1,2,0,0,0,0,0,0,0,0,1,0,,,schulpa01
-612,Teemu Selänne*,26,MDA,RW,78,51,58,109,28,34,13.7,39,11,1,8,37,21,0,273,18.7,,,selante01
+612,Teemu SelÃ¤nne*,26,MDA,RW,78,51,58,109,28,34,13.7,39,11,1,8,37,21,0,273,18.7,,,selante01
 613,Alex Selivanov,25,TBL,RW,69,15,18,33,-3,61,2.8,12,3,0,4,13,5,0,187,8,,,selival01
 614,Alexander Semak,30,VAN,C,18,2,1,3,-2,2,-0.1,1,1,0,0,1,0,0,12,16.7,,,semakal01
 615,Anatoli Semenov,34,BUF,C,25,2,4,6,-3,2,-0.1,1,1,0,1,4,0,0,21,9.5,,,semenan01
@@ -806,13 +806,13 @@ Rk,Player,Age,Tm,Pos,GP,G,A,PTS,+/-,PIM,PS,EV,PP,SH,GW,EV,PP,SH,S,S%,TOI,ATOI,Id
 652,Cory Stillman,23,CGY,LW,58,6,20,26,-6,14,1.5,4,2,0,0,12,8,0,112,5.4,,,stillco01
 653,Alek Stojanov,23,PIT,RW,35,1,4,5,3,79,-0.4,1,0,0,0,4,0,0,11,9.1,,,stojaal01
 654,Martin Straka,24,FLA,C,55,7,22,29,9,12,2.3,5,2,0,1,17,5,0,94,7.4,,,strakma01
-655,Jozef Stümpel,24,BOS,C,78,21,55,76,-22,14,6.3,15,6,0,1,37,18,0,168,12.5,,,stumpjo01
+655,Jozef StÃ¼mpel,24,BOS,C,78,21,55,76,-22,14,6.3,15,6,0,1,37,18,0,168,12.5,,,stumpjo01
 656,Mike Sullivan,28,CGY,RW,67,5,6,11,-11,10,-0.4,2,0,3,2,6,0,0,64,7.8,,,sullimi01
 657,Steve Sullivan,22,TOT,C,54,13,25,38,14,37,3.9,10,3,0,3,19,5,1,108,12,,,sullist01
 657,Steve Sullivan,22,NJD,C,33,8,14,22,9,14,2.3,6,2,0,2,11,3,0,63,12.7,,,sullist01
 657,Steve Sullivan,22,TOR,C,21,5,11,16,5,23,1.6,4,1,0,1,8,2,1,45,11.1,,,sullist01
 658,Mats Sundin*,25,TOR,C,82,41,53,94,6,59,11,30,7,4,8,37,13,3,281,14.6,,,sundima01
-659,Niklas Sundström,21,NYR,RW,82,24,28,52,23,20,5.6,18,5,1,4,24,2,2,132,18.2,,,sundsni01
+659,Niklas SundstrÃ¶m,21,NYR,RW,82,24,28,52,23,20,5.6,18,5,1,4,24,2,2,132,18.2,,,sundsni01
 660,Gary Suter,32,CHI,D,82,7,21,28,-4,70,5.7,4,3,0,0,10,11,0,225,3.1,,,suterga01
 661,Brent Sutter,34,CHI,C,39,7,7,14,10,18,1.3,7,0,0,1,7,0,0,62,11.3,,,suttebr02
 662,Ron Sutter,33,SJS,C,78,5,7,12,-8,65,-0.5,2,1,2,1,5,0,2,78,6.4,,,suttero01
