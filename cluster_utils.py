@@ -389,13 +389,16 @@ def final_cluster(X, player, goon_df, n_clusters=2, path=None):
         if Xtransformed2['who'][line] in goons:
                 x.text(Xtransformed2[5][line], Xtransformed2[7][line],
                     Xtransformed2['who'][line], horizontalalignment='left',
-                    size='small', color='red')#colors[line])
-        # if Xtransformed2['who'][line] in goons2:
-        #         x.text(Xtransformed2[5][line], Xtransformed2[7][line],
-        #             Xtransformed2['who'][line], horizontalalignment='left',
-        #             size='small', color='orange')#colors[line])
+                    size='small', color=colors[line])#colors[line])
+        if Xtransformed2['who'][line] in goons2:
+                x.text(Xtransformed2[5][line], Xtransformed2[7][line],
+                    Xtransformed2['who'][line], horizontalalignment='left',
+                    size='small', color='orange')#colors[line])
 
-    ax2.set_title("The visualization of the clustered data.")
+    if player.iloc[0].Pos =='D':
+        ax2.set_title("Plot of Defensemen")
+    else:
+        ax2.set_title("Plot of Forwards")
     ax2.set_xlabel("Points")
     ax2.set_ylabel("Penalty Minutes")
 
@@ -404,7 +407,7 @@ def final_cluster(X, player, goon_df, n_clusters=2, path=None):
                     fontsize=14, fontweight='bold')
 
     if path:
-        plt.savefig('figs/cluster_plots/' + path + '/' + str(n_clusters) + 'final.png')
+        plt.savefig('figs/cluster_plots/final_clusters/' + path + '.png')
 
     return cluster_labels, silhouettes
 
@@ -459,4 +462,3 @@ def scree_plot_pca(X, path=None):
     plt.show()
 
     return scores
-
