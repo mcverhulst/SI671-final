@@ -105,7 +105,7 @@ def get_goons(group):
 
 ### clustering
 # clustering with PCA
-def cluster_groups(X, player, goon_df):
+def cluster_groups(X, player, goon_df, path=None):
     names = player.Player.values
     range_n_clusters = [2, 3, 4, 5, 6]
     silhouettes = {}
@@ -195,10 +195,15 @@ def cluster_groups(X, player, goon_df):
                       "with n_clusters = %d" % n_clusters),
                      fontsize=14, fontweight='bold')
 
+        if path:
+            plt.savefig('figs/cluster_plots/' + path + '/' + str(n_clusters) + '.png')
+        # plt.savefig('figs/cluster_plots/cluster.png')
+
+
     return silhouettes
 
 # clustering without PCA
-def cluster_no_pca(X, player, goon_df):
+def cluster_no_pca(X, player, goon_df, path=None):
     names = player.Player.values
     range_n_clusters = [2, 3, 4, 5, 6]
     silhouettes = {}
@@ -293,10 +298,13 @@ def cluster_no_pca(X, player, goon_df):
                       "with n_clusters = %d" % n_clusters),
                      fontsize=14, fontweight='bold')
 
+        if path:
+            plt.savefig('figs/cluster_plots/' + path + '/' + str(n_clusters) + 'pca.png')
+
     return silhouettes
 
 # final clustering
-def final_cluster(X, player, goon_df, n_clusters=2):
+def final_cluster(X, player, goon_df, n_clusters=2, path=None):
     names = player.Player.values
     range_n_clusters = [2, 3, 4, 5, 6]
     silhouettes = {}
@@ -394,6 +402,9 @@ def final_cluster(X, player, goon_df, n_clusters=2):
     plt.suptitle(("Silhouette analysis for KMeans clustering on sample data "
                     "with n_clusters = %d" % n_clusters),
                     fontsize=14, fontweight='bold')
+
+    if path:
+        plt.savefig('figs/cluster_plots/' + path + '/' + str(n_clusters) + 'final.png')
 
     return cluster_labels, silhouettes
 
