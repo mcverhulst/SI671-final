@@ -409,7 +409,12 @@ def final_cluster(X, player, goon_df, n_clusters=2, path=None):
     if path:
         plt.savefig('figs/cluster_plots/final_clusters/' + path + '.png')
 
-    return cluster_labels, silhouettes
+    # X['label'] = cluster_labels
+    player['label'] = cluster_labels
+
+    final = pd.concat([player, X], axis=1)
+
+    return final, silhouettes
 
 ### Scree plots
 # without PCA
