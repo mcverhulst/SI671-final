@@ -317,22 +317,34 @@ def final_cluster(X, player, goon_df, n_clusters=2, path=None):
     ax1.set_xlim([-0.5, 1])
     ax1.set_ylim([0, len(X) + (n_clusters + 1) * 10])
 
+    # pipe = Pipeline([
+    #     ('imputer', SimpleImputer(strategy="median")),
+    #     ('scale',StandardScaler()),
+    # ])
+
     pipe = Pipeline([
-        ('imputer', SimpleImputer(strategy="median")),
-        ('scale',StandardScaler()),
+    ('imputer', SimpleImputer(strategy="median")),
+    ('scale',StandardScaler()),
+    ('pca', PCA(n_components=2,random_state=671)),
+    ('cluster', KMeans(n_clusters=n_clusters) ),
     ])
+    cluster_labels = pipe.fit_predict(X)
+    Xtransformed = pipe.transform(X) # imputed and scaled, fed to pca, and return results
+    Xtransformed2 = pd.concat([pd.DataFrame({'who':names}),pd.DataFrame(Xtransformed)],axis=1)
 
-    Xtransformed = pipe.fit_transform(X)
-    clustering = KMeans(n_clusters=n_clusters, random_state=671)
-    clustering.fit(Xtransformed)
+    clusterer = pipe.named_steps.cluster
 
-    cluster_labels = clustering.predict(Xtransformed)
+    # Xtransformed = pipe.fit_transform(X)
+    # clustering = KMeans(n_clusters=n_clusters, random_state=671)
+    # clustering.fit(Xtransformed)
+
+    # cluster_labels = clustering.predict(Xtransformed)
 
     # imputed and scaled, fed to pca, and return results
     Xtransformed2 = pd.concat([pd.DataFrame({'who':names}),pd.DataFrame(Xtransformed)],axis=1)
 
     # return Xtransformed
-    clusterer = clustering
+    # clusterer = clustering
 
     # The silhouette_score gives the average value for all the samples.
     silhouette_avg = silhouette_score(Xtransformed, cluster_labels)
@@ -377,21 +389,31 @@ def final_cluster(X, player, goon_df, n_clusters=2, path=None):
     ### 2nd Plot showing the actual clusters formed
     colors = cm.nipy_spectral(cluster_labels.astype(float) / n_clusters)
 
-    x = sns.scatterplot(x=Xtransformed[:, 5], y=Xtransformed[:, 7], marker='o', s=30, lw=0, alpha=0.7,
+    x = sns.scatterplot(x=Xtransformed[:, 0], y=Xtransformed[:, 1], marker='o', s=30, lw=0, alpha=0.7,
                 c=colors, edgecolor='k')
 
     ### plotting goon names
     goons2 = ['Dale Hunter', 'Sean Avery', 'Marty McSorley', 'Bob Propert',
              'Rob Ray', 'Craig Berube', 'Tim Hunter', 'Tie Domi', 'Donald Brashear',
              'Shane Churla', 'Milan Lucic', 'Tom Wilson']
-    goons = goons = list(goon_df['Player'].values)
+    # goons = goons = list(goon_df['Player'].values)
+    # for line in range(0, Xtransformed2.shape[0]):
+    #     if Xtransformed2['who'][line] in goons:
+    #             x.text(Xtransformed2[0][line], Xtransformed2[1][line],
+    #                 Xtransformed2['who'][line], horizontalalignment='left',
+    #                 size='small', color=colors[line])#colors[line])
+    #     if Xtransformed2['who'][line] in goons2:
+    #             x.text(Xtransformed2[0][line], Xtransformed2[1][line],
+    #                 Xtransformed2['who'][line], horizontalalignment='left',
+    #                 size='small', color='orange')#colors[line])
+    goons = list(goon_df['Player'].values)
     for line in range(0, Xtransformed2.shape[0]):
         if Xtransformed2['who'][line] in goons:
-                x.text(Xtransformed2[5][line], Xtransformed2[7][line],
-                    Xtransformed2['who'][line], horizontalalignment='left',
-                    size='small', color=colors[line])#colors[line])
-        if Xtransformed2['who'][line] in goons2:
-                x.text(Xtransformed2[5][line], Xtransformed2[7][line],
+                x.text(Xtransformed2[0][line]+0.01, Xtransformed2[1][line],
+                Xtransformed2['who'][line], horizontalalignment='left',
+                size='medium', color=colors[line])
+        elif Xtransformed2['who'][line] in goons2:
+                x.text(Xtransformed2[0][line], Xtransformed2[1][line],
                     Xtransformed2['who'][line], horizontalalignment='left',
                     size='small', color='orange')#colors[line])
 
@@ -399,8 +421,8 @@ def final_cluster(X, player, goon_df, n_clusters=2, path=None):
         ax2.set_title("Plot of Defensemen")
     else:
         ax2.set_title("Plot of Forwards")
-    ax2.set_xlabel("Points")
-    ax2.set_ylabel("Penalty Minutes")
+    ax2.set_xlabel("First component")
+    ax2.set_ylabel("Second component")
 
     plt.suptitle(("Silhouette analysis for KMeans clustering on sample data "
                     "with n_clusters = %d" % n_clusters),
