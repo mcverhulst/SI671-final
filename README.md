@@ -11,4 +11,4 @@ Seasons were analyzed in batches of five seasons. Those seasons are:
 * **2004/2005 season cancelled due to a lockout**
 * 2005/2006 – 2009/2010
 * 2010/2011 – 2014/2015
-* 2015/2016 – 2019/2022
+* 2015/2016 – 2019/2020
