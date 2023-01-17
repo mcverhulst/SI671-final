@@ -1,10 +1,10 @@
 # Clustering Analysis of NHL Players
 
-#### The goal:
+### The goal:
 * Determine if "goons" were ever a big enough presence to be a distinct cluster
 * Compare outcomes of all teams to see if having more goons on a team can lead to success
 
-#### The tools:
+### The tools:
 * Python
 * pandas
 * K-means clustering through sklearn
@@ -13,6 +13,15 @@
     * Seaborn
     * Matplotlib
     * Tableau
+
+### Table of Contents
+- [Intro](#introduction)
+- [The Data](#the-data)
+- [Preprocessing](#preprocessing)
+- [Clustering](#clustering)
+- [Plotting the Clusters](#replotting-after-clustering)
+- [Results](#results)
+- [Conclusion](#conclusion)
 
 ### Introduction
 For many decades, hockey experts and fans have stated that physical and aggressive players known as “goons” or “enforcers” were a critical element of successful teams in the National Hockey League (NHL). Goons are defined by their physical playstyle that includes hard hits and fighting while usually not contributing to their team’s offensive output. After the cancellation of the 2004/2005 NHL season due to a lockout, significant changes were made to NHL rules that placed more emphasis on skill and speed while trying to limit the more physical aspects of the game. It is often said that after these rule changes there was no longer a place for goons in the NHL. Through the use of K-Means clustering, the goal of this paper is to examine if goons were ever a large enough presence to be detectable as their own unique playstyle and examine if there is a relationship between successful teams and the number of goons on their rosters.
