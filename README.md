@@ -45,4 +45,30 @@ After examining the silhouette scores, the optimal number of clusters for each i
 ### Replotting After Clustering
 After conducting K-Means clustering on each batch of data, the resulting labels were attached to each player and then used to plot in an easily interpretable space. With the main statistics of interest for goons being *penalty minutes* and *points*, each era was plotted with points on the x-axis and penalty minutes on the y-axis. Cluster labels were used to encode color and size was used to indicate which points were players labelled as goons.
 
-![Example of players plotted with points (x-axis) and penalty minutes (y-axis)](figs/other/gh2.png)
+![Example of players plotted with points (x-axis) and penalty minutes (y-axis)](figs/other/gh3.png)
+
+### Results
+#### Pre-Rule Change
+After looking at the plots of penalty minutes and points by era and position, it was clear that the game had changed substantially after the 2005 rule changes. In regards to penalty minutes, in the era from 1989 to 1993, a large number of players accrued more than 150 penalty minutes but during the most recent era only a few players had more than 150 penalty minutes.
+
+![Penalty minutes and points (left) and average penalty minutes by player type (right).](figs/other/gh2.png)
+
+In addition to looking at the relationship between penalty minutes and points, I also compared the outcomes of teams that had goons to those that did not. When comparing teams by the number of games they won, teams with the most goons tended to not perform very well and were often in the bottom 50% of teams. This could be in part due to the fact that goons accruing large amounts of penalty minutes leading to their opponents getting more powerplay opportunities.
+
+The San Jose Sharks from 1994-1999 are a good illustration of this. In this era the Sharks were 22nd out of 30 teams in terms of wins, had the second worst *goals against total*, allowed the fourth most *powerplay opportunities against*, and were second to last in *goals for per game/goals against per game ratio*.
+
+![San Jose](figs/dashboards/group2.png)
+
+The lead up to the 2005 rule changes appears to have been the prime era for goons with 21 of the 30 teams employing at least one goon on their roster. It is worth noting that although over two thirds of teams had goons on their rosters, three of the top eight teams had no goons and the remaining five only had one. Part of what contributed to these higher win totals was having fewer goals scored against them. In fig 6 we can see that three of the best four teams by goals against can from teams that had no goons on their roster.
+
+![golden era goons](figs/dashboards/group3.png)
+
+#### Post Rule Change
+After the rule changes of 2005, teams without goons tended to perform better than teams with goons on their squads. The change was gradual with two of the top four teams employing goons between 2005 and 2010, one of the top four between 2010 and 2015, and none of the top four between 2015 and 2020. Similarly, the same trend can be seen in the *goals for per game to goals against per game* statistic with all of the top eight teams having a goon-free roster.
+
+![no goons](figs/dashboards/group6.png)
+
+### Conclusion
+In conclusion, based on the 30 seasons of data analyzed as part of this project, it appears as though there was a time where having goons on a team could potentially lead to more wins but that time was before the rule changes that came about after the cancelled 2004/2005 season. Following the rule changes, teams were taking far fewer penalties as the new rules encouraged speed and skill over hard hits and physical playstyles. These changes can be seen when examining penalty minutes against points for players throughout the eras. Between 1989 and 1994 there is a wide spread in both penalty minutes and points that gets much tighter after the 2005 rule changes.
+In addition to spread of players getting much tighter following the 2004 lockout, between 2010 and 2020, all but one of the top six teams did not have a goon on their roster. The Pittsburgh Penguins between 2010 and 2015 were the one exception to this rule and they only had one goon on their team. This seems to be an indicator that teams that focus on limiting powerplay opportunities for their opponents by staying out of the penalty box are more likely to be successful in the modern NHL.
+It is worth noting that even during the eras when goons were more prevalent in the league, the teams that only had one or two in their lineups tended to perform much better than teams that tried to stack their rosters with physical players. Out of the teams that had the most goons on their roster in their era, the 2005 to 2010 Calgary Flames had the most wins in their time and they still only ranked ninth in wins in a 30-team league.
